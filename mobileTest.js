@@ -7,4 +7,4 @@ var mobile3 = new mobile_1.Mobile("Samsung Galaxy 10", "Galaxy 10", "Samsung", 1
 console.log(mobile1, mobile2, mobile3);
 mobile1.is5G = true;
 mobile1.cameraNumber = 4;
-mobile1;
+console.log(mobile1, mobile2, mobile3);
