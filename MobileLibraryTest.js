@@ -1,0 +1,18 @@
+"use strict";
+exports.__esModule = true;
+var MobileLibrary_1 = require("./MobileLibrary");
+var mobileP_1 = require("./mobileP");
+var mobile1 = new mobileP_1.MobileP("Nokia3210", "3210", "Nokia", 1, "Azul", false, 0, 55);
+var mobile2 = new mobileP_1.MobileP("iPhone3G", "3G", "Apple", 8, "Negro", false, 1, 195);
+var mobile3 = new mobileP_1.MobileP("Samsung Galaxy 10", "Galaxy 10", "Samsung", 16, "Verde", false, 1, 155);
+var mobile4 = new mobileP_1.MobileP("Pocophone", "X3", "Xiaomi", 128, "Amarillo", true, 4, 459);
+var mobileArr = [mobile1, mobile2, mobile3, mobile4];
+var libraryMobile = new MobileLibrary_1.MobileLibrary("MiMobil", "Barcelona", mobileArr);
+console.log(libraryMobile.getName());
+console.log(libraryMobile.getLocation());
+console.log(libraryMobile.getMobiles());
+libraryMobile.setLocation("China");
+libraryMobile.setName("One");
+console.log(libraryMobile.getName());
+console.log(libraryMobile.getLocation());
+libraryMobile.totalPriceCalculation();

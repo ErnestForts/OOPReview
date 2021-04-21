@@ -1,4 +1,4 @@
-export class Mobile{
+export class MobileP{
     private name : string
     private model: string
     private trademark: string
