@@ -1,4 +1,4 @@
-import {MobileLibrary} from "./MobileLibrary"
+import {MobileLibrary} from "./MobileLibraryP"
 import { MobileP } from "./mobileP"
 
 let mobile1:MobileP = new MobileP("Nokia3210","3210","Nokia",1,"Azul",false,0,55)
@@ -20,4 +20,4 @@ libraryMobile.setName("One")
 console.log(libraryMobile.getName())
 console.log(libraryMobile.getLocation())
 
-libraryMobile.totalPriceCalculation()
+libraryMobile.printLibrary()
